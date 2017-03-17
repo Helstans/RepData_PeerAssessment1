@@ -32,7 +32,7 @@ Daily_steps2 <- summarise(Daily_steps, total = sum(steps))
 Daily_steps2
 ```
 
-```{r, echo=TRUE}
+```{r, hist, echo=TRUE}
 hist(Daily_steps2$total, main="Number of steps per day", col = "blue")
 ```
 
