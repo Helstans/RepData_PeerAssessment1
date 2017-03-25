@@ -1,4 +1,4 @@
-``` r
+﻿``` r
 library(knitr)
 library(dplyr)
 ```
@@ -70,7 +70,7 @@ Daily_steps2
 hist(Daily_steps2$total, main="Number of steps per day", col = "blue")
 ```
 
-![](PA1_template_files/figure-markdown_github/hist-1.png)
+![](hist-1.png)
 
 ``` r
 summary(Daily_steps2)
@@ -94,7 +94,7 @@ plot(stepsinterval$interval, stepsinterval$steps, type='l',
      main="Average steps per day")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](unnamed-chunk-5-1.png)
 
 ``` r
 max <- which.max(stepsinterval$steps)
@@ -146,7 +146,7 @@ head(df_imputed_steps_by_day)
 hist(df_imputed_steps_by_day$steps, main="Histogram of total number of steps per day with filled missing values")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](unnamed-chunk-10-1.png)
 
 ``` r
 mean(df_imputed_steps_by_day$steps)
@@ -205,4 +205,4 @@ qplot(interval,
 
     ## Warning: Ignoring unknown parameters: type
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-16-1.png)
+![](unnamed-chunk-16-1.png)
