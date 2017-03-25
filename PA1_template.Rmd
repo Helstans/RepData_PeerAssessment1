@@ -8,7 +8,7 @@ library(knitr)
 library(dplyr)
 library(ggplot2)
 opts_chunk$set(echo = TRUE)
-setwd('/Users/helstans/Documents')
+setwd('/Users/Sharon/Documents')
 ```
 
 ## Loading and preprocessing the data
@@ -125,5 +125,3 @@ qplot(interval,
       main = "Weekdays vs Weekends") +
   facet_wrap(~ type_of_day, ncol = 1)
 ```
-
-
